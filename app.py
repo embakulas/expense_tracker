@@ -12,7 +12,7 @@ from sqlalchemy import text
 from db.connection import get_engine
 from auth import verify_login, register_user, get_user_by_username
 from process_expenses import update_balances_from_expenses
-from reset_password import reset_password_form
+from reset_password import reset_user_password
 from views.input_form import show_expense_form,show_expense_form
 from views.login import show_login,show_registration,show_recovery
 from views.reports import show_reports
